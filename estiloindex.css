@@ -1,0 +1,29 @@
+
+p {
+    text-align: center;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+    text-decoration: none;
+    
+}
+
+li {
+    cursor: pointer;
+    list-style: none;
+    text-decoration: none;
+}
+
+.links{
+
+border: solid 3px red;
+border-radius: 5px;
+text-align: center;
+padding: 5px;
+
+
+}
