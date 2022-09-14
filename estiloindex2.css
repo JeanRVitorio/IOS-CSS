@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+img {
+    max-width:75px;
+    max-height:50px;
+    width: auto;
+    height: auto;
+}
+
+body {
+    background: #f6f9ff;
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #434343;
+}
+
+div.card {
+    display: flex;
+    padding: 32px;
+}
+
+div.class section.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: white;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    max-height: 256px;
+    margin-left: 32px;
+    box-shadow: 40px 40px 60px -30px #afd9ff;
+    border: 10px;
+}
+
+div.class section.card:first-child {
+    margin-left: 0;
+}
+
+main.card section.card .icon {
+    width: 64px;
+    height: 64px;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    border-radius: 32px;
+    border: 0;
+    cursor: pointer;
+    font-size: 80%;
+    font-weight: 500;
+    background: linear-gradient(to right, #3e8aff, #bbdeff);
+}
+
+
