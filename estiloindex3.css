@@ -8,23 +8,22 @@ body {
     background: linear-gradient(236.85deg, #320404 27.26%, #692020 96.03%);
 }
 
-header {
+.cabecalho {
     text-align: center;
 }
 
 img {
-    max-width:100px;
-    max-height:75px;
-    width: auto;
-    height: auto;
+    max-width: 10%;
+    max-height: 10%;
 }
 
 .container {
     display: flex;
     flex-flow: wrap;
-    margin: 100px 200px 200px 200px; 
-    justify-content: space-evenly;
-    align-items: center;   
+    margin: 175px 175px; 
+    justify-content: space-between;
+    align-items: center; 
+    padding: 10px;  
 }
 
 .container a {
@@ -41,4 +40,5 @@ img {
     align-self: center;
     flex: inherit;
     flex-basis: inherit;    
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
 }
